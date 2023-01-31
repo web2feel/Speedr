@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="App h-screen bg-gradient-to-b from-purple-50 to-indigo-100">
+    <div className="App min-h-screen bg-gradient-to-b from-purple-50 to-indigo-100">
       <div className="max-w-screen-md	mx-auto p-4 z-10 relative">
         <Header />
         <Playback setHours={setHours} setMinutes={setMinutes} />
